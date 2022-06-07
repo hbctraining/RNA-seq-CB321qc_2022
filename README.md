@@ -9,8 +9,8 @@
 
 ## Lesson Plan
 
-* Introduction
-* [RNA-seq library prep and sequencing basics](https:/hbctraining.github.io/Intro-to-rnaseq-hpc-salmon-flipped/lessons/01_intro-to-RNAseq.html)
+* [Introduction]()
+* [RNA-seq library prep and sequencing basics](https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon-flipped/lessons/01_intro-to-RNAseq.html)
 * Bulk RNA-seq
     * [Experimental design](https://hbctraining.github.io/DGE_workshop_salmon_online/lessons/experimental_planning_considerations.html)
     * [Analysis](https://hbctraining.github.io/rnaseq-cb321/lessons/analysis_methods.html)
