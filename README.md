@@ -13,14 +13,14 @@
 * [RNA-seq library prep and sequencing basics](https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon-flipped/lessons/01_intro-to-RNAseq.html)
 * Bulk RNA-seq
     * [Experimental design](https://hbctraining.github.io/DGE_workshop_salmon_online/lessons/experimental_planning_considerations.html)
-    * [Analysis](https://hbctraining.github.io/rnaseq-cb321/lessons/analysis_methods.html)
+    * ##[Analysis](https://hbctraining.github.io/rnaseq-cb321/lessons/analysis_methods.html)
     * [Visualization of DE results](https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/lessons/data_visualization.html)
-    * [Functional analysis](https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/slides/functional_analysis_mp.pdf)
-* [Single Cell RNA-seq]()
+    * ##[Functional analysis](f)
+* ##[Single Cell RNA-seq]()
 * Data repositories
-    * [Types of genomics data]()
+    * ##[Types of genomics data]()
     * [Accessing reference data](https://hbctraining.github.io/Accessing_public_genomic_data/lessons/accessing_genome_reference_data.html)
-    * [Data deposition - GEO/SRA]()
+    * ##[Data deposition - GEO/SRA]()
 * Data storage 
     * [Best practices]()
     * [O2]()
