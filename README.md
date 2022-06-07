@@ -10,9 +10,10 @@
     * Overview
 * RNA-seq - https://github.com/hbctraining/Intro-to-rnaseq-hpc-salmon-flipped/blob/main/lessons/01_intro-to-RNAseq.md
 * Bulk RNA-seq
-    * experimental design - https://github.com/hbctraining/DGE_workshop_salmon_online/blob/master/lessons/experimental_planning_considerations.md
-    * analysis - https://github.com/hbctraining/rnaseq-cb321/blob/master/lessons/analysis_methods.md
-    * Visualization - https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/lessons/data_visualization.html
+    * Experimental design - https://github.com/hbctraining/DGE_workshop_salmon_online/blob/master/lessons/experimental_planning_considerations.md
+    * Analysis - https://github.com/hbctraining/rnaseq-cb321/blob/master/lessons/analysis_methods.md
+    * Visualization of DE results - https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/lessons/data_visualization.html
+    * Functional analysis - https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/slides/functional_analysis_mp.pdf
 * Single Cell RNA-seq - Slides
 * Data repositories
     * Types of genomics data
@@ -28,5 +29,3 @@
 * https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/#contents
 * https://satijalab.org/howmanycells/
 * IGV
-
-
