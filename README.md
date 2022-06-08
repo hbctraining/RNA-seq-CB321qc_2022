@@ -15,7 +15,7 @@
     * [Experimental design](https://hbctraining.github.io/DGE_workshop_salmon_online/lessons/experimental_planning_considerations.html)
     * [Analysis](https://hbctraining.github.io/rnaseq-cb321/lessons/analysis_methods.html)
     * [Visualization of DE results](https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/lessons/data_visualization.html)
-    * ##[Functional analysis]()
+    * [Functional analysis](slides/functional_analysis.pdf)
 * [Single Cell RNA-seq](slides/Intro-to-scRNAseq-analysis.pdf)
 * Data repositories
     * ##[Types of genomics data]()
