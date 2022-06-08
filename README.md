@@ -17,10 +17,9 @@
     1. [Visualization of DE results](https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/lessons/data_visualization.html)
     1. [Functional analysis](slides/functional_analysis.pdf)
 1. [Single Cell RNA-seq](slides/Intro-to-scRNAseq-analysis.pdf)
-1. Data repositories
-    * [Types of genomics data](slides/file_formats.pdf)
-    * [Data access and sharing](lessons/access-deposit.md)
-1. Data storage
+1. [Types of genomics data](slides/file_formats.pdf)
+2. [Data access and sharing](lessons/access-deposit.md)
+3. Data storage
 
 ### Resources
 
