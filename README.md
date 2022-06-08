@@ -19,7 +19,7 @@
 1. [Single Cell RNA-seq](slides/Intro-to-scRNAseq-analysis.pdf)
 1. Data repositories
     * [Types of genomics data](slides/file_formats.pdf)
-    * ##[Data access and sharing]()
+    * ##[Data access and sharing](lessons/access-deposit.md)
 1. Data storage 
     * ##[Best practices]()
     * ##[O2]()
