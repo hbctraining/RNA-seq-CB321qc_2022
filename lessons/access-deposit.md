@@ -100,41 +100,36 @@ If working on a commonly analyzed organism, Illumina's iGenomes has facilitated 
 
 To download from iGenomes, we can right-click and click on "save link as" to download the files. Please note that these are very large and you might want to download these to the cluster (if they don't already exist there).
 
-<p align="center">
-<img src="../img/igenomes_download.png" width="500">
-</p>
+> <p align="center">
+> <img src="../img/igenomes_download.png" width="500">
+> </p>
+> 
+> ```bash
+> #!/bin/bash
+> 
+> #SBATCH -p shared 	# partition name (small partition on O2)
+> #SBATCH -t 0-6:00 	# hours:minutes runlimit after which job will be killed
+> #SBATCH -n 1 		# number of cores requested 
+> #SBATCH -o %J.out	# File to which standard out will be written
+> #SBATCH -e %J.err 	# File to which standard err will be written
+> 
+> $ wget ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Homo_sapiens/NCBI/GRCh38/Homo_sapiens_NCBI_GRCh38.tar.gz
+> ```
+> 
+> After running the script with the `sbatch` command, you could use the `tar` command to unpack it. 
+> 
+> ```bash
+> $ tar -xzf Homo_sapiens_NCBI_GRCh38.tar.gz
+> ```
+>
+> If desired you could just run the `tar` command after the `wget` command in the above script to automatically unpack the reference data. 
 
-```bash
-#!/bin/bash
+## Local access via O2
 
-#SBATCH -p shared 	# partition name (small partition on O2)
-#SBATCH -t 0-6:00 	# hours:minutes runlimit after which job will be killed
-#SBATCH -n 1 		# number of cores requested 
-#SBATCH -o %J.out	# File to which standard out will be written
-#SBATCH -e %J.err 	# File to which standard err will be written
-
-$ wget ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Homo_sapiens/NCBI/GRCh38/Homo_sapiens_NCBI_GRCh38.tar.gz
-```
-
-After running the script with the `sbatch` command, you could use the `tar` command to unpack it. 
-
-```bash
-$ tar -xzf Homo_sapiens_NCBI_GRCh38.tar.gz
-```
-
-If desired you could just run the `tar` command after the `wget` command in the above script to automatically unpack the reference data. 
-
-## Local access via FAS-RC cluster or O2
-
-Downloading the reference data from biological database or iGenomes might not be necessary since the Harvard FAS-RC cluster and O2 clusters have **shared reference data** downloaded from iGenomes available to its users. 
+Downloading the reference data from biological database or iGenomes might not be necessary since the O2 cluster has **shared reference data** downloaded from iGenomes available to its users. 
 
 On O2 shared data is located at `/n/groups/shared_databases/igenome/`. Instead of using storage space inside your folder, give the path to the reference data in these shared databases instead.
 
-Let's explore what's available within the `igenome` folder and how to find the reference sequence and gene annotation files.
-
-```bash
-$ cd /n/groups/shared_databases/igenome/
-```
 
 ## Organism-specific databases
 
@@ -158,31 +153,12 @@ Downloading reference data from WormBase ParaSite is intuitive and simple. All t
 <img src="../img/wormbase_homepage_download.png" width="400">
 </p>
 
-This will take you to the FTP site, where you can right-click to copy the link address of the reference data of interest.
+This will take you to the FTP site, where you can right-click to "save link as" for the reference data of interest.
 
 <p align="center">
 <img src="../img/wormbase_downloads.png" width="700">
 </p>
 
-Then, similar to the other methods, the `wget` command can be used to download to the cluster.
-
-```bash
-#!/bin/bash
-
-#SBATCH -p short 	# partition name (small partition on O2)
-#SBATCH -t 0-6:00 	# hours:minutes runlimit after which job will be killed
-#SBATCH -c 1 		# number of cores requested 
-#SBATCH -o %J.out	# File to which standard out will be written
-#SBATCH -e %J.err 	# File to which standard err will be written
-
-wget ftp://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/releases/WBPS10/species/acanthocheilonema_viteae/PRJEB4306/acanthocheilonema_viteae.PRJEB4306.WBPS10.genomic.fa.gz
-```
-
-In general, whether downloading data from a general database, an organism-specific database, or an iGenomes collection, the download should be straight-forward using the `wget` command and the link to the corresponding FTP site.
-
-```bash
-$ wget link_to_FTP
-```
 
 ---
 *This lesson has been developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). These are open access materials distributed under the terms of the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.*
