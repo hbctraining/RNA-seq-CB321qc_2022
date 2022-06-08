@@ -1,4 +1,4 @@
-## Accessing genomic reference data
+# Accessing genomic reference data
 
 During an RNA-seq experiment, the nucleotide sequences stored inside the raw FASTQ files, or "sequence reads", need to be mapped or aligned to the reference genome or reference transcriptome to determine from where these sequences originated. The reference genome or transcriptome will be in FASTA format.
 
@@ -13,7 +13,7 @@ To download reference data, there are a few different sources online:
 
 *Note that these reference data sources are relevant to most types of genomic analyses, not just RNA-seq analyses.
 
-### General biological databases
+## General biological databases
 
 Biological databases for gene expression data store genome assemblies and provide annotations regarding where the genes, transcripts, and other genomic features are located on the genome. 
 
@@ -46,7 +46,7 @@ Genome databases incorporate these genomes and generate the gene annotations wit
 	- Manual curation by the HAVANA group is performed for human, mouse, zebrafish, and rat species, providing better confidence of transcript annotations
 	- Directly imports annotations from FlyBase, WormBase and SGD
 
-##### Ensembl identifiers
+#### Ensembl identifiers
 
 When using Ensembl, note that it uses the following format for biological identifiers:
 	
@@ -60,7 +60,7 @@ For non-human species a suffix is added:
 - **ENSMUSG###:** MUS (Mus musculus) for mouse 
 - **ENSDARG###:** DAR (Danio rerio) for zebrafish
 	
-### Finding and accessing reference data on Ensembl
+## Finding and accessing reference data on Ensembl
 
 The interface for downloading reference data from Ensembl is straight-forward. On the home page, you can click on `Downloads`.
 
@@ -94,7 +94,7 @@ To run the script, you would use the following `sbatch` command:
 Genomic reference data could be downloaded similarly by FTP from the [NCBI FTP (or through Aspera)](https://www.ncbi.nlm.nih.gov/home/download/) or the [UCSC FTP](https://genome.ucsc.edu/goldenpath/help/ftp.html).
 
 
-### Reference data collections: iGenomes
+## Reference data collections: iGenomes
 
 If working on a commonly analyzed organism, Illumina's iGenomes has facilitated the process of downloading reference data. On the [iGenomes website](https://support.illumina.com/sequencing/sequencing_software/igenome.html) reference data from Ensembl, UCSC and NCBI for various genome builds are available for download. In addition, the download is a compressed file containing the matching reference genome (FASTA) and gene annotation (GTF/GFF) files. 
 
@@ -124,18 +124,18 @@ To download from iGenomes, we can right-click and click on "save link as" to dow
 >
 > If desired you could just run the `tar` command after the `wget` command in the above script to automatically unpack the reference data. 
 
-### Local access via O2
+## Local access via O2
 
 Downloading the reference data from biological database or iGenomes might not be necessary since the O2 cluster has **shared reference data** downloaded from iGenomes available to its users. 
 
 On O2 shared data is located at `/n/groups/shared_databases/igenome/`. Instead of using storage space inside your folder, give the path to the reference data in these shared databases instead.
 
 
-### Organism-specific databases
+## Organism-specific databases
 
 Although the general genomic databases update the genome builds and annotations for all species, organism-specific databases often update the genome patches and gene annotations more frequently. In addition, these databases also offer genomes for other species that may not be present in the general databases. Additional tools and information regarding these organisms are also accessible.
 
-#### Wormbase
+### Wormbase
 
 As an example, we will explore [WormBase ParaSite](http://parasite.wormbase.org/index.html), which is devoted to the study of *C. elegans* and other nematodes, in addition to, helminths. This site is closely linked with *WormBase*, and incorporates the information for *C. elegans* and other nematodes from this repository. 
 
@@ -145,7 +145,7 @@ On the homepage, there is direct access to WormBase, links to all species genome
 <img src="../img/wormbase_homepage.png" width="500">
 </p>
 
-#### Finding and accessing reference data on Wormbase
+### Finding and accessing reference data on Wormbase
 
 Downloading reference data from WormBase ParaSite is intuitive and simple. All that is needed is to click on the `Downloads` tab.
 
@@ -159,7 +159,7 @@ This will take you to the FTP site, where you can right-click to "save link as" 
 <img src="../img/wormbase_downloads.png" width="700">
 </p>
 
-## Depositing Results and Raw Sequence data
+# Depositing Results and Raw Sequence data
 
 ### [NCBI's Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/)
 
