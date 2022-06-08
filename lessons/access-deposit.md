@@ -166,7 +166,7 @@ This will take you to the FTP site, where you can right-click to "save link as" 
 You can upload all your data via the GEO submission system, including the raw sequencing data which is automatically submitted to SRA.
 
 <p align="center">
-<img src="../img/GEO.png" width="400">
+<img src="../img/GEO.png" width="700">
 </p>
 
 ### [NCBI's Sequence Read Archive (SRA)]()
@@ -174,7 +174,7 @@ You can upload all your data via the GEO submission system, including the raw se
 This is the major repository in the US for **all types** of sequencing data.
 
 <p align="center">
-<img src="../img/SRA.png" width="400">
+<img src="../img/SRA.png" width="700">
 </p>
 
 Both of the tools above require you to have complete information regarding your experiment, including what sequencing chemistry you used and what library prep methods you used.
