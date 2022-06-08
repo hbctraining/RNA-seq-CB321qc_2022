@@ -16,7 +16,7 @@
     * ##[Analysis](https://hbctraining.github.io/rnaseq-cb321/lessons/analysis_methods.html)
     * [Visualization of DE results](https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/lessons/data_visualization.html)
     * ##[Functional analysis]()
-* ##[Single Cell RNA-seq]()
+* [Single Cell RNA-seq](slides/Intro-to-scRNAseq-analysis.pdf)
 * Data repositories
     * ##[Types of genomics data]()
     * [Accessing reference data](https://hbctraining.github.io/Accessing_public_genomic_data/lessons/accessing_genome_reference_data.html)
