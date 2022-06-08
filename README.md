@@ -9,19 +9,19 @@
 
 ## Lesson Plan
 
-* [Introduction](slides/Intro_to_rnaseq_lecture_cb321.pdf)
-* [RNA-seq library prep and sequencing basics](https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon-flipped/lessons/01_intro-to-RNAseq.html)
-* Bulk RNA-seq
-    * [Experimental design](https://hbctraining.github.io/DGE_workshop_salmon_online/lessons/experimental_planning_considerations.html)
-    * [Analysis](https://hbctraining.github.io/rnaseq-cb321/lessons/analysis_methods.html)
-    * [Visualization of DE results](https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/lessons/data_visualization.html)
-    * [Functional analysis](slides/functional_analysis.pdf)
-* [Single Cell RNA-seq](slides/Intro-to-scRNAseq-analysis.pdf)
-* Data repositories
+1. [Introduction](slides/Intro_to_rnaseq_lecture_cb321.pdf)
+1. [RNA-seq library prep and sequencing basics](https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon-flipped/lessons/01_intro-to-RNAseq.html)
+1. Bulk RNA-seq
+    1. [Experimental design](https://hbctraining.github.io/DGE_workshop_salmon_online/lessons/experimental_planning_considerations.html)
+    1. [Analysis](https://hbctraining.github.io/rnaseq-cb321/lessons/analysis_methods.html)
+    1. [Visualization of DE results](https://hbctraining.github.io/Training-modules/planning_successful_rnaseq/lessons/data_visualization.html)
+    1. [Functional analysis](slides/functional_analysis.pdf)
+1. [Single Cell RNA-seq](slides/Intro-to-scRNAseq-analysis.pdf)
+1. Data repositories
     * ##[Types of genomics data]()
     * [Accessing reference data](https://hbctraining.github.io/Accessing_public_genomic_data/lessons/accessing_genome_reference_data.html)
     * ##[Data deposition - GEO/SRA]()
-* Data storage 
+1. Data storage 
     * ##[Best practices]()
     * ##[O2]()
     * ##[Cloud solutions]()
