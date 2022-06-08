@@ -18,9 +18,8 @@
     1. [Functional analysis](slides/functional_analysis.pdf)
 1. [Single Cell RNA-seq](slides/Intro-to-scRNAseq-analysis.pdf)
 1. Data repositories
-    * ##[Types of genomics data]()
-    * [Accessing reference data](https://hbctraining.github.io/Accessing_public_genomic_data/lessons/accessing_genome_reference_data.html)
-    * ##[Data deposition - GEO/SRA]()
+    * [Types of genomics data](slides/file_formats.pdf)
+    * ##[Data access and sharing]()
 1. Data storage 
     * ##[Best practices]()
     * ##[O2]()
