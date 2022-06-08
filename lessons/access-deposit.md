@@ -107,7 +107,7 @@ To download from iGenomes, we can right-click and click on "save link as" to dow
 > ```bash
 > #!/bin/bash
 > 
-> #SBATCH -p shared 	# partition name (small partition on O2)
+> #SBATCH -p short 	# partition name (small partition on O2)
 > #SBATCH -t 0-6:00 	# hours:minutes runlimit after which job will be killed
 > #SBATCH -n 1 		# number of cores requested 
 > #SBATCH -o %J.out	# File to which standard out will be written
